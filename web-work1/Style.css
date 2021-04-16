@@ -1,0 +1,175 @@
+@font-face {
+  font-family: Roboto;
+  src:url(font/Roboto/Roboto-Bold.ttf);
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background-color: #F2F3F6;
+  margin: 30px;
+  -border: 1px solid red;
+}
+
+#all{
+  -border: 1px solid red;
+  position: relative;
+  -background-color: rgb(228, 228, 228);
+  width: 1320px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  margin-left: -660px;
+  margin-right: 660px;
+}
+
+#all header{
+  position: absolute;
+  width: 1320px;
+  height: 30px;
+  -background-color: rgb(161, 161, 161);
+  text-decoration: none;
+  justify-content: space-between;
+  align-items:center;
+  display: flex;
+}
+
+header h1{
+  margin-top: -16px;
+}
+
+#all header h1 a{
+  -border: 1px solid red;
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 14px;
+  color: #707070;
+}
+
+#all header .nav ul li{
+  -border: 1px solid red;
+  display: inline-block;
+}
+
+#all header .nav ul li a{
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 14px;
+  color: #707070;
+  margin: 12px;
+}
+
+#all header .nav ul li a:hover{
+  color: #077200;
+}
+
+#all .main-contents{
+  position: absolute;
+  -background-color: #707070;
+  -border: 1px solid red;
+  width: 690px;
+  height: 690px;
+  top: 50px;
+  left: 50%;
+  margin-left: -345px;
+  text-align: center;
+}
+
+#all .main-contents .mang{
+  position: absolute;
+  width: 300px;
+  height: 90px;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -150px;
+  -background-color: rgb(87, 87, 255);
+  z-index: 5;
+}
+
+.main-contents .title{
+  color:#08C547;
+  font-family: Roboto;
+  font-size: 36px;
+}
+
+.main-contents .text{
+  color: #202020;
+  font-family: Roboto;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.main-contents .mang .green-button button{
+  width: 80px;
+  height: 24px;
+  background-color: #0DB002;
+  border: none;
+  border-radius: 2px;
+  padding: 2px;
+  margin-top: 18px;
+  box-shadow: 1px 1px 1px 1px rgba(105, 105, 107, 0.1);
+  outline: none; /*클릭할때 잔상 없애줄려*/
+  cursor: pointer;/*버튼 위에 올려놀을 때 커서 보여줌*/
+  transition: all .4s;
+}
+
+.main-contents .mang .green-button button a{
+  color: aliceblue;
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+#all .main-contents .circle{
+  position: absolute;
+  width: 690px;
+  height: 690px;
+  -background-color: rgb(169, 164, 180);
+  top: 50%;
+  left: 50%;
+  margin-top: -345px;
+  margin-left: -345px;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  z-index: 3;
+}
+
+#all .main-contents .circle:hover{
+  transform: rotateY(180deg);
+}
+
+.circle .cirw{
+  position: absolute;
+  width: 580px;
+  height: 580px;
+  -background-color: blueviolet;
+  -border: 4px solid rgb(255, 4, 79);
+  -border-radius: 50%;
+  backface-visibility: hidden;
+  top: 50%;
+  left: 50%;
+  margin-top: -290px;
+  margin-left: -290px;
+  z-index: 4;
+}
+
+.circle .cirw{
+  position: absolute;
+  width: 580px;
+  height: 580px;
+  -background-color: rgb(255, 255, 255);
+  -border: 4px solid rgb(255, 4, 79);
+  -border-radius: 50%;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  top: 50%;
+  left: 50%;
+  margin-top: -290px;
+  margin-left: -290px;
+  z-index: 4;
+}
