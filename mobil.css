@@ -1,0 +1,55 @@
+@media screen and (max-width:600px) {
+
+    #fullpage{
+        width: 100%;
+    }
+
+    #inner{width: 520px; margin: auto; border: 1px solid red;}
+
+    header{
+        height: 60px;
+        -border: 1px solid red;
+    }
+
+    .menu{
+        width: 100%;
+        -border: 1px solid red;
+        text-align: center;
+    }
+
+    .menu li{
+        margin: 0;
+        -border: 1px solid red;
+    }
+
+    #fullpage{
+        margin: 0 auto;
+    }
+
+    #fullpage>section>.cont{
+        width: 687px;
+    }
+
+    /*main 창*/
+    /*main 창:section 1*/
+    .maintit-top{width: 520px;}
+    .maintit-top h3{font-size: 28px;}
+    .maintit-top button#about{top: 70px; margin-top: 10px;}
+
+    .maintit-bot{width: 520px; 
+        margin: 0 auto; 
+        -border: 1px solid red; 
+        bottom: 30px; 
+        left: 55px;
+    }
+    .maintit-bot>p{font-size: 12px;}
+    /*main button 시작*/
+    .cirs{width: 100%; border: 1px solid blue;}
+    .cir-top,.cir-mid,.cir-bot{width: 520px; margin: o auto;}
+    #btn{width: 116px; height: 116px;}
+    #btn .back img {width: 116px; height: 116px;}
+
+    .btn1{position: absolute; top: 0; left: 0;}
+    .btn2{border: 3px solid red; position: absolute; top: 0; left: 0;}
+
+    }
